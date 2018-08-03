@@ -9,7 +9,7 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## data set information
-The data collected from the accelerometers from the Samsung Galaxy S smartphone. \
+The data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 - A group of 30 volunteers within an age bracket of 19-48 years.
 - Wearing a smartphone (Samsung Galaxy S II) on the waist. 
 - Performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
