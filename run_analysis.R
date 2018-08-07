@@ -31,7 +31,7 @@ names(subject) <- "subject"
 # label datasets
 data <- cbind(subject,activity,data)
 data <- melt(data,(id.vars=c("subject","activity")))
-data2 <- dcast(data, subject + activity ~ variable, mean)
 
 # create tidy dataset
-write.table(data2, file="./tidydata.txt")
+data2 <- dcast(data, subject + activity ~ variable, mean)
+write.table(data2, file="./tidydata.txt", row.name=FALSE)
